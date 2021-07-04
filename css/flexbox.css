@@ -8,6 +8,15 @@
   display: flex;
 }
 
+.conteudoPrincipal-cursos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudoPrincipal-cursos-link {
+  width: 23%;
+}
+
 .rodapePrincipal-patrocinadores .container {
   display: flex;
   justify-content: space-between;
@@ -30,11 +39,11 @@
   height: 250px;
 }
 
-.conteudoPrincipal-cursos {
-  display: flex;
-  flex-wrap: wrap;
+.videoSobre .container .videoSobre-video {
+  width: 100%;
+  height: 455px;
 }
 
-.conteudoPrincipal-cursos-link {
-  width: 23%;
+.videoSobre-sobre .videoSobre-button {
+  cursor: pointer;
 }
