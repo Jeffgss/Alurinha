@@ -44,6 +44,43 @@
   height: 455px;
 }
 
+.videoSobre-sobre {
+  margin: 0;
+}
+
 .videoSobre-sobre .videoSobre-button {
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .cabecalhoPrincipal .container {
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+  }
+  .cabecalhoPrincipal-nav {
+    flex-direction: column;
+  }
+  .conteudoPrincipal-cursos-link {
+    width: 100%;
+  }
+  .videoSobre-sobre .videoSobre-sobre-title {
+    text-align: center;
+  }
+  .videoSobre-sobre .videoSobre-button {
+    width: 100%;
+  }
+  .rodapePrincipal-navMap-list {
+    height: auto;
+  }
+  .rodapePrincipal-patrocinadores .container {
+    flex-direction: column;
+  }
+  .rodapePrincipal-patrocinadores-list {
+    width: 100%;
+    margin: 0;
+  }
+  .rodapePrincipal-patrocinadores .rodapePrincipal-contatoForm-fieldset {
+    justify-content: center;
+  }
 }
