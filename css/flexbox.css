@@ -39,17 +39,24 @@
   height: 250px;
 }
 
-.videoSobre .container .videoSobre-video {
-  width: 100%;
-  height: 455px;
+.videoSobre .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoSobre-video {
+  flex-grow: 1;
 }
 
 .videoSobre-sobre {
-  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-.videoSobre-sobre .videoSobre-button {
-  cursor: pointer;
+.videoSobre-sobre-list {
+  flex-grow: 1;
 }
 
 @media (max-width: 768px) {
@@ -82,5 +89,8 @@
   }
   .rodapePrincipal-patrocinadores .rodapePrincipal-contatoForm-fieldset {
     justify-content: center;
+  }
+  .cabecalhoPrincipal-nav-link-app {
+    order: -1;
   }
 }
